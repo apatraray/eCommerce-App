@@ -34,7 +34,7 @@ public class UserControllerTest {
     }
 
     @Test
-    public void create_user_happy_path() throws Exception{
+    public void verify_createUser() throws Exception{
         when(encoder.encode("testPassword")).thenReturn("thisIsHashed");
         CreateUserRequest request = new CreateUserRequest();
         request.setUsername("test");
@@ -49,4 +49,39 @@ public class UserControllerTest {
         assertEquals("test", u.getUsername());
         assertEquals("thisIsHashed", u.getPassword());
     }
+
+    @Test
+    public void verify_findByUser() throws Exception{
+        User nUser = new User();
+        nUser.setUsername("test");
+        nUser.setPassword("test");
+        nUser.setId(1);
+        when(userRepo.findByUsername("test")).thenReturn(nUser);
+        final ResponseEntity<User> response = userController.findByUserName("test");
+        assertNotNull(response);
+        assertEquals(200, response.getStatusCodeValue());
+        User u = response.getBody();
+        assertNotNull(u);
+        assertEquals(1, u.getId());
+        assertEquals("test", u.getUsername());
+        assertEquals("test", u.getPassword());
+    }
+
+    @Test
+    public void verify_findById() throws Exception{
+        User nUser = new User();
+        nUser.setUsername("test");
+        nUser.setPassword("test");
+        nUser.setId(1);
+        when(userRepo.findById((long) 1)).thenReturn(java.util.Optional.of(nUser));
+        final ResponseEntity<User> response = userController.findById((long) 1);
+        assertNotNull(response);
+        assertEquals(200, response.getStatusCodeValue());
+        User u = response.getBody();
+        assertNotNull(u);
+        assertEquals(1, u.getId());
+        assertEquals("test", u.getUsername());
+        assertEquals("test", u.getPassword());
+    }
+
 }

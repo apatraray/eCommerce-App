@@ -1,6 +1,5 @@
 package com.example.demo.controllers;
 
-import org.apache.commons.logging.Log;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +16,6 @@ import com.example.demo.model.persistence.User;
 import com.example.demo.model.persistence.repositories.CartRepository;
 import com.example.demo.model.persistence.repositories.UserRepository;
 import com.example.demo.model.requests.CreateUserRequest;
-import org.slf4j.Logger.*;
 
 @RestController
 @RequestMapping("/api/user")
@@ -35,6 +33,7 @@ public class UserController {
 
 	@GetMapping("/id/{id}")
 	public ResponseEntity<User> findById(@PathVariable Long id) {
+
 		return ResponseEntity.of(userRepository.findById(id));
 	}
 	
