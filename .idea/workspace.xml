@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f992586-0cd6-49c2-a257-7756e0100976" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/CartControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/ItemControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/OrderControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/persistence/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/persistence/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/persistence/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/persistence/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/security/JWTAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/JWTAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/UserControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/ItemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/persistence/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/persistence/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/security/JWTAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/security/JWTAuthenticationFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/controllers/UserControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/demo/controllers/UserControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/ItemControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/ItemControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/controllers/ItemControllerTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +58,70 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="JUnit.UserControllerTest">
+  <component name="RunManager" selected="JUnit.ItemControllerTest">
+    <configuration name="ItemControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="starter_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.ItemControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemControllerTest.verify_getItemById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="starter_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.ItemControllerTest" />
+      <option name="METHOD_NAME" value="verify_getItemById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemControllerTest.verify_getItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="starter_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.ItemControllerTest" />
+      <option name="METHOD_NAME" value="verify_getItems" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemControllerTest.verify_getItemsByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="starter_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.ItemControllerTest" />
+      <option name="METHOD_NAME" value="verify_getItemsByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="starter_code" />
       <extension name="coverage">
@@ -89,54 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserControllerTest.verify_createUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="starter_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.UserControllerTest" />
-      <option name="METHOD_NAME" value="verify_createUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserControllerTest.verify_findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="starter_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.UserControllerTest" />
-      <option name="METHOD_NAME" value="verify_findById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserControllerTest.verify_findByUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="starter_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.UserControllerTest" />
-      <option name="METHOD_NAME" value="verify_findByUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SareetaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="auth-course" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.SareetaApplication" />
@@ -146,10 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ItemControllerTest" />
+        <item itemvalue="JUnit.ItemControllerTest.verify_getItemsByName" />
+        <item itemvalue="JUnit.ItemControllerTest.verify_getItemById" />
+        <item itemvalue="JUnit.ItemControllerTest.verify_getItems" />
         <item itemvalue="JUnit.UserControllerTest" />
-        <item itemvalue="JUnit.UserControllerTest.verify_findById" />
-        <item itemvalue="JUnit.UserControllerTest.verify_findByUser" />
-        <item itemvalue="JUnit.UserControllerTest.verify_createUser" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +177,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575412666597</updated>
       <workItem from="1575412671669" duration="55000" />
-      <workItem from="1575413258052" duration="27996000" />
+      <workItem from="1575413258052" duration="32451000" />
     </task>
     <servers />
   </component>
@@ -188,22 +189,22 @@
       <screen x="0" y="23" width="1280" height="728" />
     </state>
     <state x="151" y="223" width="1020" height="427" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.728@0.23.1280.728" timestamp="1576094694825" />
-    <state width="1178" height="101" key="GridCell.Tab.0.bottom" timestamp="1576108818252">
+    <state width="1178" height="101" key="GridCell.Tab.0.bottom" timestamp="1576183631720">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1178" height="101" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1576108818252" />
-    <state width="1178" height="101" key="GridCell.Tab.0.center" timestamp="1576108818251">
+    <state width="1178" height="101" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1576183631720" />
+    <state width="1178" height="101" key="GridCell.Tab.0.center" timestamp="1576183631719">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1178" height="101" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1576108818251" />
-    <state width="1178" height="101" key="GridCell.Tab.0.left" timestamp="1576108818250">
+    <state width="1178" height="101" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1576183631719" />
+    <state width="1178" height="101" key="GridCell.Tab.0.left" timestamp="1576183631718">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1178" height="101" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1576108818250" />
-    <state width="1178" height="101" key="GridCell.Tab.0.right" timestamp="1576108818252">
+    <state width="1178" height="101" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1576183631718" />
+    <state width="1178" height="101" key="GridCell.Tab.0.right" timestamp="1576183631719">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1178" height="101" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1576108818252" />
+    <state width="1178" height="101" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1576183631719" />
     <state width="1178" height="185" key="GridCell.Tab.1.bottom" timestamp="1576096830215">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
@@ -237,16 +238,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/example/demo/controllers/UserControllerTest.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/example/demo/controllers/UserControllerTest.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java</url>
           <line>41</line>
           <option name="timeStamp" value="6" />
@@ -260,6 +251,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/auth_course$ItemControllerTest.ic" NAME="ItemControllerTest Coverage Results" MODIFIED="1576183631649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.demo.controllers.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/auth_course$UserControllerTest.ic" NAME="UserControllerTest Coverage Results" MODIFIED="1576108818212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.example.demo.controllers.*</FILTER>
     </SUITE>
