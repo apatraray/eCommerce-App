@@ -11,12 +11,8 @@ import com.example.demo.model.requests.ModifyCartRequest;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.http.ResponseEntity;
-
-import java.util.Arrays;
-import java.util.List;
 import static junit.framework.TestCase.assertNotNull;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -100,15 +96,5 @@ public class CartControllerTest {
         final ResponseEntity<Cart> response = cartController.removeFromcart(request);
         assertNotNull(response);
         assertEquals(200, response.getStatusCodeValue());
- /*       assertNotNull(cart);
-        assertEquals(java.util.Optional.of(0), cart.getId());
-        assertEquals(nUser, cart.getUser());
-        List<Item> IList = cart.getItems();
-        for(int i=0; i<IList.size(); i++)
-        {
-            assertNotEquals(0, IList.get(i).getId().intValue());
-        }
-
-        assertEquals(0, cart.getTotal());*/
     }
 }
