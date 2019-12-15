@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1f992586-0cd6-49c2-a257-7756e0100976" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/CartControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/CartControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/OrderControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/OrderControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/controllers/CartControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/demo/controllers/CartControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/controllers/OrderControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/demo/controllers/OrderControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="71" />
+    <option name="myElementSize" value="95" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -55,12 +51,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="JUnit.OrderControllerTest">
+  <component name="RunManager" selected="Spring Boot.SareetaApplication">
     <configuration name="CartControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="starter_code" />
       <extension name="coverage">
@@ -139,9 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SareetaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="auth-course" />
+    <configuration name="SareetaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" show_console_on_std_err="true" show_console_on_std_out="true">
+      <module name="starter_code" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.SareetaApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MAVEN_REPOSITORY$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,7 +183,10 @@
       <option name="presentableId" value="Default" />
       <updated>1575412666597</updated>
       <workItem from="1575412671669" duration="55000" />
-      <workItem from="1575413258052" duration="46692000" />
+      <workItem from="1575413258052" duration="47880000" />
+      <workItem from="1576292734784" duration="134000" />
+      <workItem from="1576292890253" duration="13000" />
+      <workItem from="1576292945510" duration="136000" />
     </task>
     <servers />
   </component>
@@ -187,6 +194,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="23" key="#SareetaApplication" timestamp="1576293036274">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state x="0" y="23" key="#SareetaApplication/0.23.1280.728@0.23.1280.728" timestamp="1576293036274" />
     <state x="151" y="223" width="1020" height="427" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1576094694825">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
@@ -195,38 +206,38 @@
       <screen x="0" y="23" width="1280" height="728" />
     </state>
     <state x="399" y="190" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1280.728@0.23.1280.728" timestamp="1576283530092" />
-    <state width="1178" height="142" key="GridCell.Tab.0.bottom" timestamp="1576290382898">
+    <state width="1178" height="142" key="GridCell.Tab.0.bottom" timestamp="1576293081005">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1178" height="142" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1576290382898" />
-    <state width="1178" height="142" key="GridCell.Tab.0.center" timestamp="1576290382896">
+    <state width="1178" height="142" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1576293081005" />
+    <state width="1178" height="142" key="GridCell.Tab.0.center" timestamp="1576293081003">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1178" height="142" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1576290382896" />
-    <state width="1178" height="142" key="GridCell.Tab.0.left" timestamp="1576290382893">
+    <state width="1178" height="142" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1576293081003" />
+    <state width="1178" height="142" key="GridCell.Tab.0.left" timestamp="1576293081001">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1178" height="142" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1576290382893" />
-    <state width="1178" height="142" key="GridCell.Tab.0.right" timestamp="1576290382898">
+    <state width="1178" height="142" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1576293081001" />
+    <state width="1178" height="142" key="GridCell.Tab.0.right" timestamp="1576293081004">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1178" height="142" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1576290382898" />
-    <state width="1178" height="185" key="GridCell.Tab.1.bottom" timestamp="1576285143230">
+    <state width="1178" height="142" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1576293081004" />
+    <state width="1178" height="142" key="GridCell.Tab.1.bottom" timestamp="1576293081006">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1178" height="185" key="GridCell.Tab.1.bottom/0.23.1280.728@0.23.1280.728" timestamp="1576285143230" />
-    <state width="1178" height="185" key="GridCell.Tab.1.center" timestamp="1576285143228">
+    <state width="1178" height="142" key="GridCell.Tab.1.bottom/0.23.1280.728@0.23.1280.728" timestamp="1576293081006" />
+    <state width="1178" height="142" key="GridCell.Tab.1.center" timestamp="1576293081005">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1178" height="185" key="GridCell.Tab.1.center/0.23.1280.728@0.23.1280.728" timestamp="1576285143228" />
-    <state width="1178" height="185" key="GridCell.Tab.1.left" timestamp="1576285143228">
+    <state width="1178" height="142" key="GridCell.Tab.1.center/0.23.1280.728@0.23.1280.728" timestamp="1576293081005" />
+    <state width="1178" height="142" key="GridCell.Tab.1.left" timestamp="1576293081005">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1178" height="185" key="GridCell.Tab.1.left/0.23.1280.728@0.23.1280.728" timestamp="1576285143228" />
-    <state width="1178" height="185" key="GridCell.Tab.1.right" timestamp="1576285143229">
+    <state width="1178" height="142" key="GridCell.Tab.1.left/0.23.1280.728@0.23.1280.728" timestamp="1576293081005" />
+    <state width="1178" height="142" key="GridCell.Tab.1.right" timestamp="1576293081005">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1178" height="185" key="GridCell.Tab.1.right/0.23.1280.728@0.23.1280.728" timestamp="1576285143229" />
+    <state width="1178" height="142" key="GridCell.Tab.1.right/0.23.1280.728@0.23.1280.728" timestamp="1576293081005" />
     <state x="0" y="29" key="SettingsEditor" timestamp="1575686413986">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
@@ -243,16 +254,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/demo/model/persistence/Cart.java</url>
           <line>79</line>
