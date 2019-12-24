@@ -54,7 +54,6 @@ public class UserController {
 		user.setCart(cart);
 		if(createUserRequest.getPassword().length() < 7||
 		!createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())){
-			System.console().readLine("Error with user password. Cannot create user {}", createUserRequest.getUsername());
 			log.error("Error creating password for user: ", userName);
 			return ResponseEntity.badRequest().build();
 		}
